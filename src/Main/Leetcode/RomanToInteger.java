@@ -60,6 +60,9 @@ public class RomanToInteger {
                         result += 1;
                     }
                 }
+                default -> {
+                    result = -1;
+                }
             }
         }
         return result;

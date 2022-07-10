@@ -2,6 +2,8 @@ package Main.Leetcode;
 
 public class Palidrome {
     public static void main(String[] args) {
+        //https://leetcode.com/problems/palindrome-number/
+
         Palidrome leetcode = new Palidrome();
         System.out.println(leetcode.isPalindrome(10));
     }
